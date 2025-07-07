@@ -26,8 +26,7 @@ def withdraw(balance):
 def main():
 
     balance = 50000
-    Running = True
-    while Running:
+    while True:
         print("Banking Program")
         print("1.Show Balance")
         print("2.Deposit")
@@ -43,7 +42,7 @@ def main():
         elif choice == '3':
             balance -= withdraw(balance)
         elif choice == '4':
-            Running = False
+            print("Exit! Have a nice day")
         else:
             print("No valid choices")
 
