@@ -26,7 +26,7 @@ def withdraw(balance):
 def main():
 
     balance = 50000
-    Running = True 
+    Running = True
     while Running:
         print("Banking Program")
         print("1.Show Balance")
